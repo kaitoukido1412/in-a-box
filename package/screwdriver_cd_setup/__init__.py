@@ -202,7 +202,7 @@ def generate_scm_config(scm_plugin, ip): # pylint: disable=C0103
         avatar = 'bitbucket.org/account/*/avatar/*'
     elif scm_plugin == 'gitlab':
         service_name = 'Gitlab.com'
-        start_url = 'https://gitlab.com/profile/applications'
+        start_url = 'http://linxpa-gitlab00.garmin.com/profile/applications'
         homepage_url_msg = ''
         callback_url = 'Redirect URL'
         additional_process = ''
